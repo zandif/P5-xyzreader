@@ -1,5 +1,18 @@
 # Windows image file caches
 Thumbs.db
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+/XYZReader/build
+/XYZReader/captures
+/XYZReader/.idea/workspace.xml
+/XYZReader/.idea/libraries
+
 ehthumbs.db
 
 # Folder config file
