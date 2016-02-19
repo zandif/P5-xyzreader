@@ -22,6 +22,7 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
+                    android:transitionName="@string/transition_photo"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:scaleType="centerCrop"/>
@@ -63,7 +64,7 @@
                         android:layout_height="wrap_content"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
                         android:fontFamily="sans-serif-condensed"
-                        android:textColor="#fff"
+                        android:textColor="@color/theme_primary_text_color"
                         android:textStyle="bold"
                         android:textSize="@dimen/detail_title_text_size"
                         android:lineSpacingMultiplier="0.9" />
@@ -73,7 +74,7 @@
                         style="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#8fff" />
+                        android:textColor="@color/theme_primary_text_color" />
                 </LinearLayout>
 
                 <TextView
@@ -98,8 +99,8 @@
         android:layout_marginRight="@dimen/fab_margin"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/ic_share"
         android:contentDescription="@string/action_share" />
 

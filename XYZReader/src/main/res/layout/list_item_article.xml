@@ -18,6 +18,7 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
+            android:transitionName="@string/transition_photo"
             android:layout_width="fill_parent"
             android:layout_height="100dp"
             android:background="@color/photo_placeholder" />
@@ -42,7 +43,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
-            android:textColor="#6000"
+            android:textColor="@color/theme_secondary_text_color"
             android:maxLines="1"
             android:singleLine="true"
             android:ellipsize="end" />

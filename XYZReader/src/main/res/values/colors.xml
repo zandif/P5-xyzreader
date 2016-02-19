@@ -23,4 +23,7 @@
     <color name="theme_accent_green">#1DE9B6</color>
     <color name="theme_accent">#FF5621</color>
     <!--<color name="ltgray">#ffe0e0e0</color>-->
+
+    <color name="theme_primary_text_color">#FFFFFF</color>
+    <color name="theme_secondary_text_color">#66000000</color>
 </resources>
